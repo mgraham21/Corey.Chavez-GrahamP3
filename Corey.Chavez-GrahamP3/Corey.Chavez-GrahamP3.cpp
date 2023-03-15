@@ -27,7 +27,22 @@ void travelTime()
 int main()
 {
 	cout << "Bobby Corey & Mariah Chavez-Graham, "; /*Need program name and description*/
-
+	cout << "Welcome to INTERPLANETARY TRAVEL PROGRAM!\n";
+    	cout << "This program enables you to find out your travel time to the planet you want to travel " <<
+            	"to as well as your weight on there.\n";
+    	cout << "Please enjoy the program and hope you'll find the perfect planet for you!\n\n";
+    	cout << "INTERPLANETARY TRAVEL MENU\n" << setfill('-') << setw(28) << "\n\n";
+    	cout << "a)\tMercury\n";
+    	cout << "b)\tVenus\n";
+    	cout << "c)\tEarth\n";
+    	cout << "d)\tMars\n";
+    	cout << "e)\tJupiter\n";
+    	cout << "f)\tSaturn\n";
+    	cout << "g)\tUranus\n";
+    	cout << "h)\tNeptune\n";
+   	cout << "q)\tQuit\n";
+    	cout << "\nSelect a planet to travel to or q to quit the program: ";
+    	cin >> ch;
 	do
 	{
    
